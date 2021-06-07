@@ -1,0 +1,78 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: darkorange;
+}
+.tarjeta{
+text-align: center;
+border-radius: 9px;
+background-color: rgba(255, 166, 0, 0.74);
+padding: 20px;
+box-shadow: 0 2px 10px 0 rgba(255, 255, 0, 0.5);
+width: 50%;
+margin-left:auto ;
+margin-right: auto;
+margin-bottom: 2% ;
+margin-top: 2%;
+}
+#Pikachu{
+  width: 50%;
+  border-radius: 18%;
+  border-style: solid;
+  box-shadow: 2px 2px 2px 2px rgb(179, 122, 16);
+}
+hr{
+background-color: black;
+padding: 2px;
+}
+
+input[type=text],input[type=pasword]{
+width: 120px;
+padding: 10px;
+margin-left:auto ;
+margin-right:auto ;
+display: block;
+border: none;
+margin-bottom: 5px;
+background-color: rgb(255, 251, 0);
+border-radius: 5px;
+}
+label{
+display: block;
+margin-left:auto ;
+margin-right:auto ;
+}
+a{
+  color: rgba(255, 0, 0, 0.596);
+}
+.bt-sesion{
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.842);
+    border-color: rgb(255, 166, 0);
+    cursor: pointer;
+    display: block;
+margin-left:auto ;
+margin-right:auto ;
+margin-top: 8px;
+margin-bottom: 5px;
+padding: 6px;
+}
+.bt-sesion:hover{
+box-shadow: 0px 0px 0px 2px rgb(179, 122, 16);
+background-color:rgba(255, 0, 0, 0.678);
+}
+.bt-regristro{
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.842);
+    border-color: rgb(255, 166, 0);
+    cursor: pointer;
+    display: block;
+margin-left:auto ;
+margin-right:auto ;
+margin-top: 8px;
+margin-bottom: 5px;
+padding: 6px;
+}
+.bt-regristro:hover{
+box-shadow: 0px 0px 0px 2px rgb(179, 122, 16);
+background-color: rgba(255, 166, 0, 0.74);
+}
